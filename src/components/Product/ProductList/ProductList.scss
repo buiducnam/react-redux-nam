@@ -1,0 +1,29 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.product__list {
+    width: 70%;
+    margin: 0 auto;
+
+    th,
+    td {
+        padding: 10px 0;
+
+        span {
+            padding: 2px 3px;
+            border-radius: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 0 3px;
+            border-radius: 3px;
+            color: white;
+            background-color: #4fe27c;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.product__action {
+    &--add {
+    }
+    &--form {
+        width: 50%;
+        margin: 0 auto;
+
+        .form__field {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .title {
+                width: 120px;
+                text-align: left;
+            }
+            .input {
+                flex-grow: 1;
+                height: 35px;
+            }
+        }
+
+        .btn__add {
+            padding: 5px 20px;
+            float: right;
+        }
+    }
+}

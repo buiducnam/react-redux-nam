@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    background-color: #dedede;
+    margin: 0;
+    padding: 0;
+
+    &__link {
+        list-style: none;
+        padding: 10px 20px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .active {
+        background: white;
+        a {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+$mb: 10px;
+$mt: 10px;
+$mr: 10px;
+.home {
+    .btn__add--product {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        background: #4fe27c;
+        margin-bottom: $mb;
+        margin-top: $mt;
+        border-radius: 5px;
+
+        .icon__plus {
+            margin-right: $mr;
+        }
+    }
+}
